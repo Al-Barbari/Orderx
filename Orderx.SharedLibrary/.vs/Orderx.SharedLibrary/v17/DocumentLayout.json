@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|d:\\practice\\asp.net web api\\orderx.sharedlibrary\\sharedlibrary\\middleware\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\middleware\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalException.cs",
+              "DocumentMoniker": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\Middleware\\GlobalException.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\Middleware\\GlobalException.cs",
+              "ToolTip": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\Middleware\\GlobalException.cs",
+              "RelativeToolTip": "SharedLibrary\\Middleware\\GlobalException.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:09:41.122Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

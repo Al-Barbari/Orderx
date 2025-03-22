@@ -1,0 +1,12 @@
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\bin\Debug\net8.0\SharedLibrary.deps.json
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\bin\Debug\net8.0\SharedLibrary.dll
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\bin\Debug\net8.0\SharedLibrary.pdb
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\SharedLibrary.csproj.AssemblyReference.cache
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\SharedLibrary.AssemblyInfoInputs.cache
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\SharedLibrary.AssemblyInfo.cs
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\SharedLibrary.csproj.CoreCompileInputs.cache
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\SharedLibrary.dll
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\refint\SharedLibrary.dll
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\SharedLibrary.pdb
+D:\Practice\Asp.net Web API\Orderx.SharedLibrary\SharedLibrary\obj\Debug\net8.0\ref\SharedLibrary.dll
