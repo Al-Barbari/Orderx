@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SharedLibrary.logs;
 using System.Net;
 using System.Text.Json;
 
@@ -18,43 +19,42 @@ namespace SharedLibrary.Middleware
             {
                 await next(context);
 
-                // Check if the Response is Too Many Requests // 429 status code
-                if (context.Response.StatusCode == StatusCodes.Status429TooManyRequests)
+                switch (context.Response.StatusCode)
                 {
-                    statusCode = (int) HttpStatusCode.TooManyRequests;
-                    messgae = "Too Many Requests";
-                    title = "Warning";
-
-                    await ModifyHeader(context, statusCode, messgae, title);
-                }
-
-                // Check if the Response is Unauthorized // 401 status code
-                if (context.Response.StatusCode == StatusCodes.Status401Unauthorized)
-                {
-                    statusCode = (int)HttpStatusCode.Unauthorized;
-                    messgae = "You are not authorized to access";
-                    title = "Alert";
-                    await ModifyHeader(context, statusCode, messgae, title);
-                }
-
-                // Check if the Response is Forbidden // 403 status code
-                if (context.Response.StatusCode == StatusCodes.Status403Forbidden)
-                {
-                    statusCode = (int)HttpStatusCode.Forbidden;
-                    messgae = "You are not allowed to access";
-                    title = "Out Of Access";
-                    await ModifyHeader(context, statusCode, messgae, title);
+                    case StatusCodes.Status429TooManyRequests:
+                        statusCode = (int)StatusCodes.Status429TooManyRequests;
+                        messgae = "Too Many Requests";
+                        title = "Warning";
+                        break;
+                    case StatusCodes.Status401Unauthorized:
+                        statusCode = (int)StatusCodes.Status401Unauthorized;
+                        messgae = "You are not authorized to access";
+                        title = "Alert";
+                        break;
+                    case StatusCodes.Status403Forbidden:
+                        statusCode = (int)StatusCodes.Status403Forbidden;
+                        messgae = "You are not allowed to access";
+                        title = "Out Of Access";
+                        break;
                 }
             }
             catch (Exception ex)
             {
                 // in Production we should log the exception to the database, file or any other logging service
                 // Log orginal execption / File, Dubugger, Console
-                await ModifyHeader(context, statusCode, messgae, title);
+                LogExcepion.LogExceptions(ex);
 
                 // Check if the exception is timeout exception
-                
-                
+                if (ex is TaskCanceledException || ex is TimeoutException)
+                {
+                    statusCode = (int)StatusCodes.Status408RequestTimeout;
+                    messgae = "Request Timeout";
+                    title = "Timeout";
+                }
+            }
+            finally
+            {
+                await ModifyHeader(context, statusCode, messgae, title);
             }
         }
 
