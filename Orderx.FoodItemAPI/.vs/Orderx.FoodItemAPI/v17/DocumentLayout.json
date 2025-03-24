@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.FoodItemAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E097432F-F2FE-403D-B649-E07AA3DDE582}|FoodItem.Application\\FoodItem.Application.csproj|d:\\practice\\asp.net web api\\orderx\\orderx.fooditemapi\\fooditem.application\\dtos\\fooditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E097432F-F2FE-403D-B649-E07AA3DDE582}|FoodItem.Application\\FoodItem.Application.csproj|solutionrelative:fooditem.application\\dtos\\fooditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3F3930-2933-4B14-823A-2FEE85AFF46A}|FoodItem.Domain\\FoodItem.Domain.csproj|d:\\practice\\asp.net web api\\orderx\\orderx.fooditemapi\\fooditem.domain\\entities\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E3F3930-2933-4B14-823A-2FEE85AFF46A}|FoodItem.Domain\\FoodItem.Domain.csproj|solutionrelative:fooditem.domain\\entities\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodItemDTO.cs",
+              "DocumentMoniker": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.FoodItemAPI\\FoodItem.Application\\DTOs\\FoodItemDTO.cs",
+              "RelativeDocumentMoniker": "FoodItem.Application\\DTOs\\FoodItemDTO.cs",
+              "ToolTip": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.FoodItemAPI\\FoodItem.Application\\DTOs\\FoodItemDTO.cs",
+              "RelativeToolTip": "FoodItem.Application\\DTOs\\FoodItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:15:37.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.FoodItemAPI\\FoodItem.Domain\\Entities\\FoodItem.cs",
+              "RelativeDocumentMoniker": "FoodItem.Domain\\Entities\\FoodItem.cs",
+              "ToolTip": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.FoodItemAPI\\FoodItem.Domain\\Entities\\FoodItem.cs",
+              "RelativeToolTip": "FoodItem.Domain\\Entities\\FoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:14:42.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

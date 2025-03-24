@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodItem.Application", "FoodItem.Application\FoodItem.Application.csproj", "{E097432F-F2FE-403D-B649-E07AA3DDE582}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodItem.Infrastructure", "FoodItem.Infrastructure\FoodItem.Infrastructure.csproj", "{3593E736-262D-4DD1-9DD4-E7A5D3A1E1A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodItem.API", "FoodItem.API\FoodItem.API.csproj", "{EEBBB05B-7105-431B-B565-F5BB4B626627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "..\Orderx.SharedLibrary\SharedLibrary\SharedLibrary.csproj", "{A633E8E9-29A2-F198-6B2C-960C557ED667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EEBBB05B-7105-431B-B565-F5BB4B626627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEBBB05B-7105-431B-B565-F5BB4B626627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEBBB05B-7105-431B-B565-F5BB4B626627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A633E8E9-29A2-F198-6B2C-960C557ED667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A633E8E9-29A2-F198-6B2C-960C557ED667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A633E8E9-29A2-F198-6B2C-960C557ED667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A633E8E9-29A2-F198-6B2C-960C557ED667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Orderx.SharedLibrary\SharedLibrary\SharedLibrary.csproj" />
+    <ProjectReference Include="..\FoodItem.Domain\FoodItem.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
