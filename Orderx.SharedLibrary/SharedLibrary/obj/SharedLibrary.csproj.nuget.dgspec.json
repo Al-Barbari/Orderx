@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\SharedLibrary.csproj": {}
+    "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\SharedLibrary.csproj": {}
   },
   "projects": {
-    "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\SharedLibrary.csproj": {
+    "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\SharedLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\SharedLibrary.csproj",
+        "projectUniqueName": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\SharedLibrary.csproj",
         "projectName": "SharedLibrary",
-        "projectPath": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\SharedLibrary.csproj",
+        "projectPath": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\SharedLibrary.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\obj\\",
+        "outputPath": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

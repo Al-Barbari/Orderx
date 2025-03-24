@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\",
+  "WorkspaceRootPath": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|d:\\practice\\asp.net web api\\orderx.sharedlibrary\\sharedlibrary\\middleware\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|d:\\practice\\asp.net web api\\orderx\\orderx.sharedlibrary\\sharedlibrary\\dependencyinjection\\sharedservicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\dependencyinjection\\sharedservicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|d:\\practice\\asp.net web api\\orderx\\orderx.sharedlibrary\\sharedlibrary\\dependencyinjection\\jwtauthenticationscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\dependencyinjection\\jwtauthenticationscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|d:\\practice\\asp.net web api\\orderx\\orderx.sharedlibrary\\sharedlibrary\\middleware\\gatewayguard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\middleware\\gatewayguard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|d:\\practice\\asp.net web api\\orderx\\orderx.sharedlibrary\\sharedlibrary\\middleware\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D6AECA9-D346-4327-A292-53D9D7FB7F06}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\middleware\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GlobalException.cs",
-              "DocumentMoniker": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\Middleware\\GlobalException.cs",
-              "RelativeDocumentMoniker": "SharedLibrary\\Middleware\\GlobalException.cs",
-              "ToolTip": "D:\\Practice\\Asp.net Web API\\Orderx.SharedLibrary\\SharedLibrary\\Middleware\\GlobalException.cs",
-              "RelativeToolTip": "SharedLibrary\\Middleware\\GlobalException.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDgAAAA7AAAAAAAAAA==",
+              "Title": "SharedServiceContainer.cs",
+              "DocumentMoniker": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\DependencyInjection\\SharedServiceContainer.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\DependencyInjection\\SharedServiceContainer.cs",
+              "ToolTip": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\DependencyInjection\\SharedServiceContainer.cs",
+              "RelativeToolTip": "SharedLibrary\\DependencyInjection\\SharedServiceContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:09:41.122Z",
+              "WhenOpened": "2025-03-23T04:19:21.218Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JWTAuthenticationScheme.cs",
+              "DocumentMoniker": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\DependencyInjection\\JWTAuthenticationScheme.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\DependencyInjection\\JWTAuthenticationScheme.cs",
+              "ToolTip": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\DependencyInjection\\JWTAuthenticationScheme.cs",
+              "RelativeToolTip": "SharedLibrary\\DependencyInjection\\JWTAuthenticationScheme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T04:02:30.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GatewayGuard.cs",
+              "DocumentMoniker": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\Middleware\\GatewayGuard.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\Middleware\\GatewayGuard.cs",
+              "ToolTip": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\Middleware\\GatewayGuard.cs",
+              "RelativeToolTip": "SharedLibrary\\Middleware\\GatewayGuard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T03:46:45.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalException.cs",
+              "DocumentMoniker": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\Middleware\\GlobalException.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\Middleware\\GlobalException.cs",
+              "ToolTip": "D:\\Practice\\Asp.net Web API\\Orderx\\Orderx.SharedLibrary\\SharedLibrary\\Middleware\\GlobalException.cs",
+              "RelativeToolTip": "SharedLibrary\\Middleware\\GlobalException.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAC4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:09:41.122Z"
             }
           ]
         }
